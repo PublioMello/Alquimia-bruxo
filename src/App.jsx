@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router";
 
+import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import Consultoria from "./pages/Consultoria.jsx";
 import Home from "./pages/Home.jsx";
@@ -26,6 +27,8 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
+      <Footer />
     </>
   );
 }
