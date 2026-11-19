@@ -1,0 +1,25 @@
+/* Cores do site. Mude aqui e o site inteiro acompanha. */
+:root {
+  --color-bg: rgb(46, 45, 43);  /* fundo escuro (o que você tinha antes) */
+  --color-border: #4a4946;      /* linhas e bordas */
+  --color-text: #d9d9d6;        /* texto principal: cinza claro (contraste ~10:1) */
+  --color-muted: #a3a29e;       /* links e datas (contraste ~5,5:1) */
+  --color-accent: #f2f2f0;      /* link ativo e hover */
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+}
+
+time {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
